@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+.bg-image {
+    background-image: url(../images/racha-header.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 625px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-container {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1088px;
+    width: 100%;
+    margin-left: 239px;
+    padding-top: 30px;
+    position: fixed;
+}
+.nav-block {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul {
+    display: flex;
+    margin-left: 400px;
+}
+.active {
+    font-size: 18px;
+}
+.nav-li {
+    margin-right: 49px;
+    display: flex;
+}
+.nav-a {
+    color: darkred; 
+    font-size: 15px;
+}
+.nav-a:hover {
+    color: darkblue;
+}
+.nav-li:nth-child(6) {
+    margin-right: 0;
+} 
+.bg-image1 {
+    background-image: url(../images/riding.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 625px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image2 {
+    background-image: url(../images/other.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image3 {
+    background-image: url(../images/about.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 625px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image4 {
+    background-image: url(../images/contact.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    width: 21px;
+    height: 21px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.logo:hover {
+    color: darkblue;
+}
+.map {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.contact-container {
+    width: 270px;
+    height: 250px;
+}
+.h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10px;
+    color: blueviolet;
+}
+.p {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: brown;
+}
+.fa-solid fa-bars {
+    width: 75px;
+    height: 45px;
+    color: brown;
+}
+.burger-bar {
+    color: brown;
+    font-size: 20px;
+}
+.burger-bar:hover {
+    color: blue;
+}
+.info-container {
+    width: 420px;
+    height: 320px;
+    background-color: burlywood;
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 690px;
+    font-size: 14px;
+    border-radius: 5%;
+}
+.p-info {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.lessons {
+    margin-top: 10px;
+}
+.li-lessons {
+    margin-top: 15px;
+    margin-left: 5px;
+    justify-content: center;
+}
+.li-lessons:hover {
+    color: blueviolet;
+}
+.info-container1 {
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 700px;
+    font-size: 15px;
+    border-radius: 5%;
+}
+.info-container:hover {
+    color: blueviolet;
+}
+.contact-form {
+    margin-top: 56px;
+    margin-left: 139px;
+}
+.contact-form {
+    margin-left: 27px;
+}
+.h2-body {
+    color: blue;
+    font-size: 14px;
+}
+.h3-body {
+    font-size: 32px;
+    width: 331px;
+    height: 112px;
+}
+.form-container {
+    max-width: 1088px;
+    width: 100%;
+    height: 288px;
+}
+.textarea-form {
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    resize: none;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.input-form {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    margin-top: 16px;
+}
+.button {
+    width: 352px;
+    height: 60px;
+    background-color: blue;
+    border: none;
+    margin-top: 16px;
+    color: white;
+}
+.button:hover {
+    color: black;
+}
+.left-block {
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    margin-top: 16px;
+}
+.right-block {
+    max-width: 368px;
+    width: 100%;
+    height: 288px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.form-wrapper {
+    display: flex;  
+}
+.email {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: blue;
+    background-color: brown;
+    font-size: 5px;
+}
+.email:hover {
+    color: blueviolet;
+}
+.phone {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: blue;
+    background-color: brown;
+    font-size: 5px;
+}
+.location {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: blue;
+    background-color: brown;
+    font-size: 5px;
+}
+.main-container {
+    justify-content: space-between;
+    align-items: center; 
+    display: flex;
+    max-width: 1366px;
+    width: 100%;
+    height: 280px;
+    margin-top: 25px;
+}
+.container1 {
+    justify-content: center;
+    max-width: 430px;
+    width: 100%;
+    height: 260px;
+    margin-left: 10px;
+    margin-top: 0 auto;
+    /* display: flex; */
+    border: 2px solid brown;
+    position: relative;
+}
+.h2-hiking {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    color: blue;
+    position: absolute;
+}
+.p-hiking {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 65px;
+    position: absolute;
+    font-size: 15px;
+}
+.container2 {
+    justify-content: center;
+    max-width: 430px;
+    width: 100%;
+    height: 260px;
+    margin-left: 10px;
+    margin-top: 0 auto;
+    /* display: flex; */
+    border: 2px solid brown;
+}
+.h2-hiking2 {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    color: blue;
+}
+.p-hiking2 {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.container3 {
+    justify-content: center;
+    max-width: 430px;
+    width: 100%;
+    height: 260px;
+    margin-left: 10px;
+    margin-top: 0 auto;
+    /* display: flex; */
+    border: 2px solid brown;
+}
+.h2-hiking3 {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    color: blue;
+}
+.p-hiking3 {
+    max-width: 400px;
+    width: 100%;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.stables {
+    max-width: 1366px;
+    width: 100%;
+    height: 280px;
+    position: absolute;
+}
+.h2 {
+    font-size: 35px;
+}
+.p {
+    font-size: 15px;
+}
+.p:hover {
+    color: blueviolet;
+}
+.contact-block2 {
+    display: flex;
+    margin-top: 20px;
+}
+.contact-block3 {
+    display: flex;
+    margin-top: 20px;
+}
+.contact-block4 {
+    display: flex;
+    margin-top: 20px;
+}
+.main-footer {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    display: flex;
+    /* margin-top: 43%; */
+    position: relative;
+}
+.footer-container {
+    width: 300px;
+    height: 20px;
+    color: white;
+    display: flex;
+    margin-top: 43%;
+    
+}
+.footer-container:hover {
+    color: blue;
+}
+.logo {
+    margin-left: 20px;
+}
+.footer-container2 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 43%;
+}
+
+.p-footer {
+    font-size: 15px;
+    color: black;
+    display: flex;
+}
+.p-footer:hover {
+    color: brown;
+}
+.p-footer1 {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    margin-left: 10px;
+}
+.p-footer1:hover {
+    color: brown;
+}
+.main-footer1 {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    display: flex;
+    /* margin-top: 43%; */
+}
+.footer-container3 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 18%;
+}
+.footer-container4 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 18%;
+}
+.main-footer2 {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-container5 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 6px;
+}
+.footer-container6 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.footer-container6:hover {
+    color: whitesmoke;
+}
